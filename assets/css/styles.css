@@ -1,0 +1,51 @@
+.mainText {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+    font-weight: 500;
+}
+
+.textBoxMain {
+    border: 4px white solid;
+    padding: 1rem 1.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border: 3px white solid;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    transition: border-color;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    transition: color;
+}
+
+.button:hover {
+    border-color: #ffdb29;
+}
+
+.button:hover a {
+    color: #ffdb29;
+}
